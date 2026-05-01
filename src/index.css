@@ -1,0 +1,91 @@
+:root {
+  --text: #4d5459;
+  --text-h: #10222d;
+  --bg: #f5f1e8;
+  --border: rgba(16, 34, 45, 0.12);
+  --surface-alt: rgba(255, 248, 235, 0.82);
+  --brand: #0b4e6b;
+  --shadow:
+    rgba(14, 32, 40, 0.08) 0 24px 50px -24px, rgba(14, 32, 40, 0.1) 0 12px 20px -18px;
+
+  --sans: 'Manrope', 'Segoe UI', sans-serif;
+  --heading: 'Space Grotesk', 'Segoe UI', sans-serif;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(11, 78, 107, 0.12), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(213, 165, 84, 0.22), transparent 25%),
+    var(--bg);
+}
+
+#root {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: clamp(2.8rem, 5vw, 4.7rem);
+  letter-spacing: -0.05em;
+  line-height: 0.96;
+  margin: 14px 0 18px;
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 0 0 10px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  font-family: var(--heading);
+  font-size: 1.35rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
