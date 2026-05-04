@@ -22,4 +22,4 @@ npm run dev
 npm run build
 ```
 
-Replace the sample business address, phone number, and product inventory with real Tech3a details before publishing.
+Replace the sample business address, phone number, and product inventory with real Tech3a.com details before publishing.

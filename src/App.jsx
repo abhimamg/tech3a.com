@@ -30,11 +30,11 @@ function App() {
   return (
     <div className="page-shell">
       <div className="top-bar" aria-label="Announcement bar">
-        <span><strong className="company-mark">Tech3a</strong> — official website launching soon</span>
+        <span><strong className="company-mark">Tech3a.com</strong> — official website launching soon</span>
       </div>
 
       <header className="store-header">
-        <strong className="brand-name">Tech3a</strong>
+        <strong className="brand-name">Tech3a.com</strong>
         <nav className="main-nav" aria-label="Primary navigation">
           {navItems.map((item) => (
             <a key={item} href={item === 'Home' ? '#' : `#${item.toLowerCase().replace(' ', '-')}`}>
@@ -54,7 +54,7 @@ function App() {
         <section className="hero-card" id="home">
           <div className="hero-copy-block">
             <p className="eyebrow">Launching Soon</p>
-            <h1><span className="company-mark">Tech3a</span> is launching soon.</h1>
+            <h1><span className="company-mark">Tech3a.com</span> is launching soon.</h1>
             <p className="hero-text">
               Newly registered electronics repair and refurbishment company. Service pages and product
               catalog will be published after launch.
@@ -70,7 +70,7 @@ function App() {
             <dl className="detail-list compact-detail-list">
               <div>
                 <dt>Company</dt>
-                <dd>Tech3a</dd>
+                <dd>Tech3a.com</dd>
               </div>
               <div>
                 <dt>Status</dt>
@@ -99,7 +99,7 @@ function App() {
               <h2>Planned service categories</h2>
             </div>
             <p className="section-supporting-text">
-              These categories will go live once Tech3a operations begin.
+              These categories will go live once Tech3a.com operations begin.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ function App() {
             <p className="section-tag">Company profile</p>
             <h2>Registered and in setup mode.</h2>
             <p>
-              Tech3a is preparing its public ecommerce and service website. This page is intentionally
+              Tech3a.com is preparing its public ecommerce and service website. This page is intentionally
               minimal until operations begin.
             </p>
           </article>
