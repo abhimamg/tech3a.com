@@ -80,10 +80,6 @@ function App() {
                 <dt>Email</dt>
                 <dd>support@tech3a.com</dd>
               </div>
-              <div>
-                <dt>Registered office</dt>
-                <dd>87 Carnie Avenue, Westhil AB326HS</dd>
-              </div>
             </dl>
           </aside>
         </section>
